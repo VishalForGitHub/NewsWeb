@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page2Style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-bar flex">
+            <div class="portalName flex">Buzz News</div>
+            <div class="nav-items">
+                <ul class="flex">
+                    <a href="#" onclick="fetchNews('Cricket')"><li>Cricket</li></a>
+                    <a href="#" onclick="fetchNews('Finance')"><li>Finance</li></a>
+                    <a href="#" onclick="fetchNews('sports')"><li>Sports</li></a>
+                </ul>
+            </div>
+            <div class="search-bar flex font">
+                <input type="text" id="searchText" placeholder="eg.Science" value="">
+                <button type="button" class="font" id="searchButton">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+         <div class="cards-container flex" id="cards-container">
+            
+        </div>
+    </main>
+
+     <template id="card-template">
+        <div class="card" id="card">
+            <div class="card-header flex">
+                <img id="news-img" src="" alt="">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is title</h3>
+                <h6 id="pub-date"></h6>
+                <p id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore, nobis sequi et sapiente mollitia modi vel ipsum quo dicta nesciunt ab exercitationem excepturi, laboriosam culpa distinctio error inventore accusamus.</p>
+            </div>
+        </div>
+     </template>
+
+     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptatum repellendus minima dolore ratione debitis sit veniam consequuntur excepturi rem itaque, numquam quam facere iusto adipisci consequatur et rerum dignissimos eligendi. Voluptate, rerum odit, neque nihil fugiat ratione distinctio molestias suscipit fugit error ut aperiam omnis quo consequatur maiores est. Mollitia officia numquam illo ab voluptas nisi a eius in libero autem quia, doloribus laboriosam recusandae quam eos tempora quos ex aliquid quas veritatis. Nesciunt dolorum quas nisi officia, aperiam eius praesentium ab ducimus natus voluptatum eveniet quasi tenetur quaerat maiores ipsa molestias provident cumque officiis accusantium? Eos quia expedita neque odio nostrum explicabo blanditiis est consequatur illo, maiores quidem voluptates delectus placeat repudiandae nemo distinctio optio cupiditate laborum commodi ipsam. Perspiciatis explicabo eius id officia vel laborum est veniam in magni. Ut quos voluptas officiis, voluptatem excepturi consequatur perspiciatis quibusdam veritatis dolore optio qui laboriosam quae dolorum non, velit similique quas corporis eaque recusandae! Deserunt, libero optio perspiciatis hic natus obcaecati fugiat, adipisci officia quis et sapiente nisi quod sint placeat ea quaerat, blanditiis aut. Eos incidunt, quo hic laboriosam minus dolores doloremque similique ipsum facilis omnis deleniti cum accusamus enim? Ipsum, sint! Consequatur, magnam! Commodi, vitae sed? Facere magnam distinctio veritatis optio illum, tempore libero repellendus eaque suscipit corrupti voluptates debitis deserunt placeat obcaecati laboriosam unde. Nemo quia aliquam ut doloribus maxime laborum ratione repellat alias delectus unde expedita iusto, nostrum ex distinctio a aspernatur itaque. Veniam facere commodi dolor sint rem, ipsam odio qui aperiam eligendi cupiditate iure, sequi exercitationem! Adipisci illo quidem debitis voluptatem voluptates, perspiciatis a minus excepturi repellat laboriosam, eum molestiae assumenda voluptate nulla unde dolorem exercitationem commodi, doloremque praesentium veniam harum consectetur consequuntur. Eligendi illo eius harum iure saepe unde est, dolorum pariatur ab, aut, cum quia earum deleniti similique recusandae ad? Aperiam officiis cupiditate quisquam modi, ullam rerum neque ipsum consequuntur corrupti culpa? Nulla consequuntur temporibus laudantium labore. Sint quis minima voluptate aliquid, ullam recusandae quae iusto neque similique eveniet ipsum porro voluptates, dolor rem ipsa quod aperiam alias molestiae dicta itaque velit quidem aut modi. Deserunt, nam voluptatem eius eveniet possimus eligendi explicabo accusantium assumenda temporibus fuga aperiam consequatur qui non, labore aut rerum porro beatae! Fugit maiores animi iusto repellat, neque aspernatur quae autem eveniet, rerum ipsam nobis perferendis quas non. Culpa, quis magni commodi odit velit natus ratione minus debitis tempora consequatur corporis! Fuga, quidem neque? Neque eos consequuntur explicabo dolor molestias? Delectus quae impedit magni aliquid autem omnis eos ducimus eveniet commodi hic maxime, esse a unde necessitatibus adipisci facilis aperiam distinctio eaque? Laudantium temporibus rem corporis sit ab, veniam itaque pariatur ducimus quam officia neque, praesentium recusandae soluta dicta fugit cumque. Accusamus nisi incidunt iusto laudantium fugit hic doloribus vel, aut molestias repellendus officia voluptate, excepturi, commodi eius consectetur cumque eligendi ipsa debitis accusantium optio aspernatur. Dolores laboriosam enim at iusto sit, assumenda itaque sint officia, praesentium numquam inventore laudantium ullam et, commodi perspiciatis? Aliquid natus unde earum ducimus praesentium, reprehenderit odit omnis quaerat, ullam, sint velit.</p> -->
+
+    <script src="page2Script.js"></script>
+</body>
+</html>

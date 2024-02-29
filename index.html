@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+
+          <div class="sub-header"><h1>Join The BuzzNews Portal.</h1></div>
+
+        <div class="sub-container">
+          <div className="email-input">
+              <input
+                placeholder="email@example.com"
+                type="email"
+                name="member[email]"
+                id="member_email"
+            
+              ></input>
+            </div>
+        
+            <div className="subscribe">
+              <button
+                type="submit"
+                onClick="validateEmail()"
+                name="member[subscribe]"
+                id="member_submit">
+                 Subscribe
+                </button>
+            </div>
+        </div>
+          
+    </div>
+
+    <footer>
+        <p>All rights reserved &copy; 2024</p>
+    </footer>
+    
+
+        <script src="script.js"></script>
+</body>
+</html>
